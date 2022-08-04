@@ -9,7 +9,9 @@ programa
 		//multiplicação
 		//divisão
 		//resto da divisão
+		//função limpa()
 
+		
 		inteiro numero1
 		inteiro numero2
 		inteiro soma
@@ -23,7 +25,8 @@ programa
 		leia(numero1)
 		escreva("Numero 2: ")
 		leia(numero2)
-
+		limpa()
+		
 		soma = numero1 + numero2
 		subtracao = numero1 - numero2
 		multiplicacao = numero1 * numero2
@@ -43,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 724; 
+ * @POSICAO-CURSOR = 157; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
