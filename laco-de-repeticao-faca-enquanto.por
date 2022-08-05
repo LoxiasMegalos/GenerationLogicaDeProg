@@ -3,23 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		real base, altura, area
-		
-		escreva("Digite o valor da base do triangulo: ")
-		leia(base)
-		escreva("Digite o valor da altura do triangulo: ")
-		leia(altura)
-		
-		limpa()
+		//escreva("Olá Mundo")
+	
+		//faça enquanto, executar pelo menos uma vez e depois repetir ate a condição for verdadeira
 
-		se(base > 0 e altura > 0){
-			area = (base * altura)/2
-			escreva("A area do triangulo é: " + area)
-		}senao{
-			escreva("Insira valores maiores que zero!")
-		}
-		
-		
+		cadeia cor
+
+		faca{
+			escreva("Infome uma cor: ")
+			leia(cor)
+			escreva("A cor digitada foi: " + cor + "\n")
+		}enquanto(cor != "vermelho")
+
+		escreva("Cor correta")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 381; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

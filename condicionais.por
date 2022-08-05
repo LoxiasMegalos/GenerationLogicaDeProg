@@ -13,10 +13,10 @@ programa
 		media = (nota1 + nota2) / 2
 		limpa()
 		
-		se(media >= 7){
+		se(media >= 6){
 			escreva("Aluno Aprovado", "\nMédia: "+ media)
 		} 
-		senao se(media >=5 e media < 7){
+		senao se(media >=3 e media < 6){
 			escreva("Recuperacao", "\nMédia: "+ media)
 		}
 		senao{
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 417; 
+ * @POSICAO-CURSOR = 414; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
