@@ -14,17 +14,22 @@ programa
 			mediaTotal += lancamentos[i] 
 			
 			se(lancamentos[i] > maiorValor){
+				vezesDoMaiores = 0
 				maiorValor = lancamentos[i] 
+			}
+
+			se(lancamentos[i] == maiorValor){
+				vezesDoMaiores += 1
 			}
 		}
 
 		mediaTotal = mediaTotal / 10.0
 		
-		para(inteiro i = 0; i < 10; i++){
-			se(lancamentos[i] == maiorValor){
-				vezesDoMaiores += 1
-			}
-		}
+		//para(inteiro i = 0; i < 10; i++){
+			//se(lancamentos[i] == maiorValor){
+			//	vezesDoMaiores += 1
+			//}
+		//}
 
 		escreva("A media dos lançamentos eh : ", mediaTotal, "\n")
 		escreva("O maior valor lançado foi: ", maiorValor, " e saiu: ", vezesDoMaiores, " vezes")
@@ -37,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 165; 
+ * @POSICAO-CURSOR = 515; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
